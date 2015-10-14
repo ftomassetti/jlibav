@@ -1,0 +1,6 @@
+# Dependencies #
+
+This library depends on the following products:
+  * **JNA** - This library is used to link native libraries. You can find the library at the official JNA [website](https://github.com/twall/jna). The JNA has been replaced by the BridJ since the jlibav version 0.2.
+  * **BridJ** - It is replacement of the JNA since the jlibav version 0.2. You can get it [here](https://code.google.com/p/bridj/). You have to use the version 0.6.2 or later because there is a bug which causes jlibav instability in the BridJ 0.6.1.
+  * **Libav** - The main reason of this project. You will need the Libav binaries v0.7 or later to use this library. There are many ways how to get them. In case of the Windows platform you can download the Libav binaries from the http://win32.libav.org/. In case of the Linux platform you can use the binaries from your distribution's repository. If you cannot get the binaries you can always compile them from source codes. The Libav source code is available at http://libav.org/.
